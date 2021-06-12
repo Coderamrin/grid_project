@@ -278,4 +278,32 @@ table {
   max-width: 560px;
 }
 
+.header-1 {
+  font-size: 4rem;
+}
+
+.header-2 {
+  font-size: 3.5rem;
+}
+
+.header-3 {
+  font-size: 3rem;
+}
+
+.header-4 {
+  font-size: 2.5rem;
+}
+
+.header-5 {
+  font-size: 2rem;
+}
+
+.header-6 {
+  font-size: 1.5rem;
+}
+
+.p, .span, .li, .a {
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

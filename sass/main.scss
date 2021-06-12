@@ -13,3 +13,31 @@
 .container-sm {
 	max-width: U.$container-sm; 
 }
+
+.header-1 {
+	font-size: U.$header-1;
+}
+
+.header-2 {
+	font-size: U.$header-2;
+}
+
+.header-3 {
+	font-size: U.$header-3;
+}
+
+.header-4 {
+	font-size: U.$header-4;
+}
+
+.header-5 {
+	font-size: U.$header-5;
+}
+
+.header-6 {
+	font-size: U.$header-6; 
+}
+
+.p, .span, .li, .a {
+	font-size: U.$p; 
+}
