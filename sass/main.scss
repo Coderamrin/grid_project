@@ -1,0 +1,15 @@
+@use 'utilities/reset';  
+@use 'utilities/grid';
+@use 'utilities/utilities' as U;
+
+.container-lg {
+	max-width: U.$container-lg; 
+}
+
+.container-md {
+	max-width: U.$container-md; 
+}
+ 
+.container-sm {
+	max-width: U.$container-sm; 
+}

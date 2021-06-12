@@ -1,0 +1,46 @@
+@use 'utilities' as U; 
+
+// layout
+.container {
+	display: U.$d-grid;
+	grid-template-columns: repeat(U.$g-columns, 1fr); 
+	grid-gap: 20px; 
+	margin: 0 auto;
+}
+  
+.col {
+	color: white;
+	background: black;
+	text-align: center;
+	padding: .5rem;  
+}  
+ 
+@for $i from 1 through U.$g-columns {
+	.col-#{$i} {
+		grid-column: span $i; 
+	} 
+}
+
+@media screen and (max-width: U.$container-lg) { 
+ 	@for $i from 1 through U.$g-columns {
+		.col-lg-#{$i} {
+			grid-column: span $i; 
+		} 
+	}
+}  
+  
+@media screen and (max-width: U.$container-md) { 
+ 	@for $i from 1 through U.$g-columns {
+		.col-md-#{$i} { 
+			grid-column: span $i; 
+		} 
+	} 
+}  
+
+@media screen and (max-width: U.$container-sm) { 
+ 	@for $i from 1 through U.$g-columns {
+		.col-sm-#{$i} { 
+			grid-column: span $i; 
+		} 
+	} 
+}
